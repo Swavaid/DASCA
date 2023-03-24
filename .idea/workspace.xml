@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d4061bf-a255-4d56-aed1-5b29326b2915" name="Changes" comment="" />
+    <list default="true" id="9d4061bf-a255-4d56-aed1-5b29326b2915" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KHFGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KHFGen.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +90,7 @@
       <workItem from="1671606920211" duration="39124000" />
       <workItem from="1674196537430" duration="638000" />
       <workItem from="1677504371010" duration="49596000" />
-      <workItem from="1678415103052" duration="46600000" />
+      <workItem from="1678415103052" duration="49054000" />
     </task>
     <servers />
   </component>

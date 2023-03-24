@@ -89,7 +89,7 @@ public class KHFGen {
 
             //user verifies the validity of khf
             if(main.pairing.pairing(main.user.khf[i],main.G_generator).isEqual(main.pairing.pairing(main.apps[i].received_blind_keywords,main.apps[i].public_share))==true){
-                System.out.println("SKHF is valid");
+                System.out.println("Signature is valid");
 
                 index[validity_num]=i;
 
