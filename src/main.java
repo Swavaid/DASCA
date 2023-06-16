@@ -26,7 +26,7 @@ public class main {
     public static Element one = pairing.getZr().newElement(1).getImmutable();
     public static Element zero_point=pairing.getG1().newElement(0).getImmutable();
 
-    public static APP[] apps=new APP[n];
+    public static KeyServer[] KeyServers=new KeyServer[n];
     public static User user=new User();
     public static CloudServer cloudServer=new CloudServer();
 
@@ -34,7 +34,7 @@ public class main {
     public static long computational_cost_datastore_user=0;
     public static long computational_cost_dataRequest_user=0;
     public static long computational_cost_KHF=0;
-    public static long[] computational_cost_datastore_apps=new long[n];
+    public static long[] computational_cost_datastore_KeyServers=new long[n];
     public static long computational_cost_dataSearch_CS=0;
     public static long[] computational_cost_setup=new long[n];
     public static long[] computational_cost_dynamicUpdate=new long[2*threshold-1];
@@ -61,10 +61,10 @@ public class main {
 
         //long time1=System.nanoTime();
         for (int i=0;i<num_keywords;i++){
-            keywords[i]="happy"+i;
+            keywords[i]="hKeyServery"+i;
             Element KHF= KHFGen.KHFGen(keywords[i]);
-            DataStore.Datastore(KHF,keywords[i]);
-            DataRequest.DataRequest(KHF,keywords[i]);
+            PEKS.Datastore(KHF,keywords[i]);
+            Trapdoor.DataRequest(KHF,keywords[i]);
             //DataSearch.Search();
         }
         //long time2=System.nanoTime();
@@ -73,13 +73,13 @@ public class main {
 
 
 
-//        Element KHF=KHF_generator.generate("happy");
-//        DataStore.Datastore(KHF,"happy");
+//        Element KHF=KHF_generator.generate("hKeyServery");
+//        DataStore.Datastore(KHF,"hKeyServery");
 //        //System.out.println("communication_cost_data_store:"+communication_cost_datastore);
-//        DataRequest.DataRequest(KHF,"happy");
+//        DataRequest.DataRequest(KHF,"hKeyServery");
 //        DataSearch.Search();
 
-        UpdateAPP.DynamicUpdate();
+        KeyUpdate.DynamicUpdate();
 
         averageValue.averageValue();
         averageValueOne.averageValue();

@@ -7,7 +7,7 @@ import java.nio.charset.StandardCharsets;
  * @author emilio
  * @date 2022-12-08 10:41
  */
-public class DataRequest {
+public class Trapdoor {
 
     public static Element r=main.pairing.getZr().newRandomElement().getImmutable();
 
@@ -16,7 +16,7 @@ public class DataRequest {
 
         long user5=System.nanoTime();
 
-        if (main.pairing.pairing(KHF,main.G_generator).isEqual(main.pairing.pairing(Hash.Big_hash(keywords),main.apps[0].P_0))==true){
+        if (main.pairing.pairing(KHF,main.G_generator).isEqual(main.pairing.pairing(Hash.Big_hash(keywords),main.KeyServers[0].P_0))==true){
             //computes harden keywords
             System.out.println("KHF is valid");
 

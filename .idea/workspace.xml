@@ -4,32 +4,70 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d4061bf-a255-4d56-aed1-5b29326b2915" name="Changes" comment="">
+    <list default="true" id="fb125c74-385c-40e8-80c3-603e6f241af0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DASCA_code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KeyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trapdoor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PEKS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KHFGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KHFGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Setup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UpdateAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KeyUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polyWitness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polyWitness.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/APP 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/APP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Blind 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Blind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CloudServer 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CloudServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataRequest 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSearch 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStore 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HFGen 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Hash 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/KHFGen 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/KHFGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PRF 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PRF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RandomGen 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RandomGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Setup 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Setup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UpdateAPP 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UpdateAPP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/User 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arraySum 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/averageValue 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/averageValueOne 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/constructPoly 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/extractByte 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/extractByte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/matrixTime 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/matrixTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/polyCom 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/polyCom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/polyWitness 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/polyWitness.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/polynomialEva 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/randomPoly 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/randomPoly.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -44,79 +82,68 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2IIY2kZxu7ccla8qV0KN3RUM9Pn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2RIY0SPIAmSwRqpqmT41iaCngGF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.1345895" />
+    <property name="project.structure.side.proportion" value="0.21581921" />
+    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="DASCA_code" />
+      <module name="DSPEKS_code" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9d4061bf-a255-4d56-aed1-5b29326b2915" name="Changes" comment="" />
-      <created>1669870362839</created>
+      <changelist id="fb125c74-385c-40e8-80c3-603e6f241af0" name="Changes" comment="" />
+      <created>1686938846175</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1669870362839</updated>
-      <workItem from="1669870364367" duration="153296000" />
-      <workItem from="1670575666754" duration="77356000" />
-      <workItem from="1671606920211" duration="39124000" />
-      <workItem from="1674196537430" duration="638000" />
-      <workItem from="1677504371010" duration="49596000" />
-      <workItem from="1678415103052" duration="49054000" />
+      <updated>1686938846175</updated>
+      <workItem from="1686938849301" duration="248000" />
+      <workItem from="1686939127590" duration="346000" />
+      <workItem from="1686939603944" duration="435000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="7" />
-        </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/UpdateAPP.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/child_task$main.ic" NAME="main Coverage Results" MODIFIED="1677570323861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

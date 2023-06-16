@@ -8,7 +8,7 @@ import java.nio.charset.StandardCharsets;
  * @author emilio
  * @date 2022-12-06 18:22
  */
-public class DataStore {
+public class PEKS {
 
     public static Element r=main.pairing.getZr().newRandomElement().getImmutable();
 
@@ -23,7 +23,7 @@ public class DataStore {
 
 
 
-        if (main.pairing.pairing(KHF,main.G_generator).isEqual(main.pairing.pairing(Hash.Big_hash(keywords),main.apps[0].P_0))==true){
+        if (main.pairing.pairing(KHF,main.G_generator).isEqual(main.pairing.pairing(Hash.Big_hash(keywords),main.KeyServers[0].P_0))==true){
 
             //computes harden keywords
             System.out.println("KHF is valid");

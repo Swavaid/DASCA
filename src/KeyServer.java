@@ -8,7 +8,7 @@ import java.math.BigInteger;
  * @author emilio
  * @date 2022-12-02 10:28
  */
-public class APP {
+public class KeyServer {
 
     //setup sub-matrix B_i(x,y)
 

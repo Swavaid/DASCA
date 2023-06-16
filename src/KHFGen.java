@@ -40,38 +40,38 @@ public class KHFGen {
         int[] index=new int[main.threshold];
 
 
-        //send w' to apps
+        //send w' to KeyServers
         for (int i=0;i<main.n;i++) {
-            //user sends w' to APPs
-            main.apps[i].received_blind_keywords = blind_keywords[i];
-            //System.out.println(main.apps[i].received_blind_keywords);
+            //user sends w' to KeyServers
+            main.KeyServers[i].received_blind_keywords = blind_keywords[i];
+            //System.out.println(main.KeyServers[i].received_blind_keywords);
             //the communication cost of w'
-            main.communication_cost_datastore=main.communication_cost_datastore+main.apps[i].received_blind_keywords.getLengthInBytes();
+            main.communication_cost_datastore=main.communication_cost_datastore+main.KeyServers[i].received_blind_keywords.getLengthInBytes();
 
-            main.communication_cost+=main.apps[i].received_blind_keywords.getLengthInBytes();
+            main.communication_cost+=main.KeyServers[i].received_blind_keywords.getLengthInBytes();
         }
 
         for (int i=0;i<main.n;i++){
-            main.computational_cost_datastore_apps[i]=0;
+            main.computational_cost_datastore_KeyServers[i]=0;
         }
 
-        //apps computes the sigma_i
+        //KeyServers computes the sigma_i
         for (int i=0;i<main.n;i++) {
 
 
 
-            long apps1=System.nanoTime();
+            long KeyServers1=System.nanoTime();
 
 
-            main.user.khf[i] = blind_keywords_compute[i].powZn(main.apps[i].secret_share);
+            main.user.khf[i] = blind_keywords_compute[i].powZn(main.KeyServers[i].secret_share);
 
 
-            long apps2=System.nanoTime();
+            long KeyServers2=System.nanoTime();
 
 
 
-            main.computational_cost_datastore_apps[i]=apps2-apps1;
-            System.out.println("main.computational_cost_datastore_apps[i]::"+main.computational_cost_datastore_apps[i]);
+            main.computational_cost_datastore_KeyServers[i]=KeyServers2-KeyServers1;
+            System.out.println("main.computational_cost_datastore_KeyServers[i]::"+main.computational_cost_datastore_KeyServers[i]);
 
         }
 
@@ -84,11 +84,11 @@ public class KHFGen {
 
             //System.out.println("sigma_i"+main.user.khf[i]);
 
-            //System.out.println("w'B(i,0)"+main.apps[i].received_blind_keywords.powZn(main.apps[i].secret_share));
+            //System.out.println("w'B(i,0)"+main.KeyServers[i].received_blind_keywords.powZn(main.KeyServers[i].secret_share));
 
 
             //user verifies the validity of khf
-            if(main.pairing.pairing(main.user.khf[i],main.G_generator).isEqual(main.pairing.pairing(main.apps[i].received_blind_keywords,main.apps[i].public_share))==true){
+            if(main.pairing.pairing(main.user.khf[i],main.G_generator).isEqual(main.pairing.pairing(main.KeyServers[i].received_blind_keywords,main.KeyServers[i].public_share))==true){
                 System.out.println("Signature is valid");
 
                 index[validity_num]=i;
